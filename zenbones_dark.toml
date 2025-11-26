@@ -5,7 +5,7 @@
 "ui.cursor.insert" = { bg = "yellow" }
 "ui.cursor.select" = { bg = "blue" }
 "ui.cursor.match" = { bg = "light-yellow" }
-"ui.cursor.primary" = {}
+"ui.cursor.primary" = { bg = "cursor" }
 "ui.debug.breakpoint" = { fg = "red" }
 "ui.debug.active" = { fg = "light-red" }
 "ui.gutter" = { bg = "background", fg = "gray" }
@@ -63,6 +63,60 @@
 "diagnostic.unnecessary" = { fg = "gray" }
 "diagnostic.deprecated" = { fg = "light-magenta" }
 "tabstop" = { fg = "gray" }
+
+"keyword" = { fg = "magenta" }
+"keyword.control" = { fg = "magenta" }
+"keyword.operator" = { fg = "light-magenta" }
+"keyword.function" = { fg = "light-magenta" }
+"keyword.return" = { fg = "magenta" }
+
+"operator" = { fg = "light-magenta" }
+
+"function" = { fg = "blue" }
+"function.builtin" = { fg = "light-blue" }
+"function.macro" = { fg = "light-red" }
+"function.method" = { fg = "light-blue" }
+
+"tag" = { fg = "blue" }
+"attribute" = { fg = "light-yellow" }
+
+"type" = { fg = "cyan" }
+"type.builtin" = { fg = "light-cyan" }
+"type.enum" = { fg = "cyan" }
+"type.enum.variant" = { fg = "light-blue" }
+"type.struct" = { fg = "cyan" }
+"type.interface" = { fg = "light-cyan" }
+
+"constructor" = { fg = "cyan" }
+"field" = { fg = "light-blue" }
+"property" = { fg = "light-blue" }
+
+"namespace" = { fg = "light-magenta" }
+"module" = { fg = "light-magenta" }
+
+"special" = { fg = "light-yellow" }
+"markup.heading" = { fg = "light-blue", modifiers = ["bold"] }
+"markup.list" = { fg = "light-yellow" }
+"markup.bold" = { fg = "foreground", modifiers = ["bold"] }
+"markup.italic" = { fg = "foreground", modifiers = ["italic"] }
+"markup.link.url" = { fg = "cyan", modifiers = ["underlined"] }
+"markup.link.text" = { fg = "light-blue" }
+"markup.quote" = { fg = "gray" }
+"markup.raw" = { fg = "light-green" }
+
+# Language-leaning tweaks (Rust, Python, etc.)
+"keyword.storage" = { fg = "magenta" }         # e.g. let, const
+"keyword.type" = { fg = "cyan" }               # e.g. struct, enum, class
+"keyword.exception" = { fg = "light-red" }     # e.g. try/except
+"keyword.import" = { fg = "light-magenta" }    # use, import, from
+"keyword.repeat" = { fg = "magenta" }          # for, while
+"keyword.conditional" = { fg = "magenta" }     # if, match
+
+"variable.global" = { fg = "light-yellow" }
+"variable.static" = { fg = "light-yellow" }
+"variable.readonly" = { fg = "light-yellow" }
+
+"function.special" = { fg = "light-red" }
 
 [palette]
 cursor = "#C4CACF"

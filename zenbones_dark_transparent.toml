@@ -1,0 +1,4 @@
+inherits = "zenbones_dark"
+
+# Disable ui background
+"ui.background" = {}
